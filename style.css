@@ -1,0 +1,61 @@
+/* style.css */
+
+
+#banner{
+  text-align: center;
+  background-image: url("https://unsplash.it/1300/600");
+  background-size: cover;
+  padding: 100px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+
+#banner h1 {
+  color: #1360BD;
+  font-size: 50px;
+}
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+ul {
+  list-style-type: none;
+padding:0;
+ margin:0;
+}
+
+#bouton h4 {
+ text-align: center;
+color: white;
+a:hover{ color: white; }
+
+}
+ 
+ul li a {
+  margin: auto
+    padding:5px;
+    text-decoration:none;
+    background: transparent;
+     margin-left:2px;
+ float:left; /*pour IE*/
+}
+
+ #footer{
+  text-align: center;
+  background: grey;
+     margin : auto;
+     padding: 100px;
+
+
+  }
+
+
+#footer a:hover{ color: white; }
+
+.card{
+  padding: 50px;
+  font-weight: lighter;
+
